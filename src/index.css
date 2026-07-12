@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    cursor: none;
+    background-color: #04080f;
+  }
+}
+
+@keyframes load-progress {
+  to { width: 100%; }
+}
+
+@keyframes glow-drift {
+  0% { transform: translate(0,0) scale(1); }
+  100% { transform: translate(30px,40px) scale(1.12); }
+}
